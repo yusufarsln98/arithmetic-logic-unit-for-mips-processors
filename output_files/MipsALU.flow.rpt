@@ -1,0 +1,193 @@
+Flow report for MipsALU
+Sun Dec 10 21:49:34 2023
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sun Dec 10 21:49:34 2023       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; MipsALU                                     ;
+; Top-level Entity Name           ; Alu32Bit                                    ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CEBA9F31C8                                 ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 217 / 113,560 ( < 1 % )                     ;
+; Total registers                 ; 35                                          ;
+; Total pins                      ; 103 / 480 ( 21 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 12,492,800 ( 0 % )                      ;
+; Total DSP Blocks                ; 0 / 342 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 8 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/10/2023 21:48:31 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; MipsALU             ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                        ;
++--------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                          ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 150462081749758.170223411117352                ; --            ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; And32BitTestBench                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Xor32BitTestBench                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Alu32BitTestBench                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; CarryLookaheadAdder32BitTestBench ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Mux8x1_32BitTestBench             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; FullAdder32BitTestBench           ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Subtractor32BitTestBench          ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Nor32BitTestBench                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; CarryLookaheadAdder16BitTestBench ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Or32BitTestBench                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; Mod32BitTestBench                 ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; SetLessThen32BitTestBench         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                             ; --            ; --          ; CarryLookaheadAdder4BitTestBench  ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Alu32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                    ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                      ; <None>        ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; Components/And32BitTestBench.v                 ; --            ; --          ; And32BitTestBench                 ;
+; EDA_TEST_BENCH_FILE                  ; Components/Xor32BitTestBench.v                 ; --            ; --          ; Xor32BitTestBench                 ;
+; EDA_TEST_BENCH_FILE                  ; Components/Alu32BitTestBench.v                 ; --            ; --          ; Alu32BitTestBench                 ;
+; EDA_TEST_BENCH_FILE                  ; Components/CarryLookaheadAdder32BitTestBench.v ; --            ; --          ; CarryLookaheadAdder32BitTestBench ;
+; EDA_TEST_BENCH_FILE                  ; Components/Mux8x1_32BitTestBench.v             ; --            ; --          ; Mux8x1_32BitTestBench             ;
+; EDA_TEST_BENCH_FILE                  ; Components/FullAdder32BitTestBench.v           ; --            ; --          ; FullAdder32BitTestBench           ;
+; EDA_TEST_BENCH_FILE                  ; Components/Subtractor32BitTestBench.v          ; --            ; --          ; Subtractor32BitTestBench          ;
+; EDA_TEST_BENCH_FILE                  ; Components/Nor32BitTestBench.v                 ; --            ; --          ; Nor32BitTestBench                 ;
+; EDA_TEST_BENCH_FILE                  ; Components/CarryLookaheadAdder16BitTestBench.v ; --            ; --          ; CarryLookaheadAdder16BitTestBench ;
+; EDA_TEST_BENCH_FILE                  ; Components/Or32BitTestBench.v                  ; --            ; --          ; Or32BitTestBench                  ;
+; EDA_TEST_BENCH_FILE                  ; Components/Mod32BitTestBench.v                 ; --            ; --          ; Mod32BitTestBench                 ;
+; EDA_TEST_BENCH_FILE                  ; Components/SetLessThen32BitTestBench.v         ; --            ; --          ; SetLessThen32BitTestBench         ;
+; EDA_TEST_BENCH_FILE                  ; Components/CarryLookaheadAdder4BitTestBench.v  ; --            ; --          ; CarryLookaheadAdder4BitTestBench  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; And32BitTestBench                              ; --            ; --          ; And32BitTestBench                 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Xor32BitTestBench                              ; --            ; --          ; Xor32BitTestBench                 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Alu32BitTestBench                              ; --            ; --          ; Alu32BitTestBench                 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; CarryLookaheadAdder32BitTestBench              ; --            ; --          ; CarryLookaheadAdder32BitTestBench ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Mux8x1_32BitTestBench                          ; --            ; --          ; Mux8x1_32BitTestBench             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; FullAdder32BitTestBench                        ; --            ; --          ; FullAdder32BitTestBench           ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Subtractor32BitTestBench                       ; --            ; --          ; Subtractor32BitTestBench          ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Nor32BitTestBench                              ; --            ; --          ; Nor32BitTestBench                 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; CarryLookaheadAdder16BitTestBench              ; --            ; --          ; CarryLookaheadAdder16BitTestBench ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Or32BitTestBench                               ; --            ; --          ; Or32BitTestBench                  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Mod32BitTestBench                              ; --            ; --          ; Mod32BitTestBench                 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; SetLessThen32BitTestBench                      ; --            ; --          ; SetLessThen32BitTestBench         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; CarryLookaheadAdder4BitTestBench               ; --            ; --          ; CarryLookaheadAdder4BitTestBench  ;
+; EDA_TEST_BENCH_NAME                  ; And32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Or32BitTestBench                               ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Xor32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Nor32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Mux8x1_32BitTestBench                          ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; FullAdder32BitTestBench                        ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; CarryLookaheadAdder4BitTestBench               ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; CarryLookaheadAdder16BitTestBench              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; CarryLookaheadAdder32BitTestBench              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Subtractor32BitTestBench                       ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; SetLessThen32BitTestBench                      ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Alu32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; Mod32BitTestBench                              ; --            ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                           ; --            ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                             ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                              ; --            ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)         ; --            ; Alu32Bit    ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)         ; --            ; Alu32Bit    ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)         ; --            ; Alu32Bit    ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                            ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW          ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                   ; --            ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                     ; Alu32Bit                                       ; MipsALU       ; --          ; --                                ;
++--------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 544 MB              ; 00:00:12                           ;
+; Fitter               ; 00:00:41     ; 1.0                     ; 2633 MB             ; 00:01:53                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 515 MB              ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.4                     ; 1044 MB             ; 00:00:05                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 697 MB              ; 00:00:01                           ;
+; Total                ; 00:01:00     ; --                      ; --                  ; 00:02:18                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++----------------------+------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++----------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; huawei-d16       ; Ubuntu 22.04.3 ; 22         ; x86_64         ;
+; Fitter               ; huawei-d16       ; Ubuntu 22.04.3 ; 22         ; x86_64         ;
+; Assembler            ; huawei-d16       ; Ubuntu 22.04.3 ; 22         ; x86_64         ;
+; Timing Analyzer      ; huawei-d16       ; Ubuntu 22.04.3 ; 22         ; x86_64         ;
+; EDA Netlist Writer   ; huawei-d16       ; Ubuntu 22.04.3 ; 22         ; x86_64         ;
++----------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off MipsALU -c MipsALU
+quartus_fit --read_settings_files=off --write_settings_files=off MipsALU -c MipsALU
+quartus_asm --read_settings_files=off --write_settings_files=off MipsALU -c MipsALU
+quartus_sta MipsALU -c MipsALU
+quartus_eda --read_settings_files=off --write_settings_files=off MipsALU -c MipsALU
+
+
+

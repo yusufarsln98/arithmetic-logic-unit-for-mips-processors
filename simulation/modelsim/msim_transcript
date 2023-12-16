@@ -1,0 +1,456 @@
+# do MipsALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/yusuf/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And4Bit.v 
+# -- Compiling module And4Bit
+# 
+# Top level modules:
+# 	And4Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And16Bit.v 
+# -- Compiling module And16Bit
+# 
+# Top level modules:
+# 	And16Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v 
+# -- Compiling module And32Bit
+# 
+# Top level modules:
+# 	And32Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or4BitLU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or4BitLU.v 
+# -- Compiling module Or4Bit
+# 
+# Top level modules:
+# 	Or4Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or16Bit.v 
+# -- Compiling module Or16Bit
+# 
+# Top level modules:
+# 	Or16Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or32Bit.v 
+# -- Compiling module Or32Bit
+# 
+# Top level modules:
+# 	Or32Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor4Bit.v 
+# -- Compiling module Xor4Bit
+# 
+# Top level modules:
+# 	Xor4Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor16Bit.v 
+# -- Compiling module Xor16Bit
+# 
+# Top level modules:
+# 	Xor16Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v 
+# -- Compiling module Xor32Bit
+# 
+# Top level modules:
+# 	Xor32Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor4Bit.v 
+# -- Compiling module Nor4Bit
+# 
+# Top level modules:
+# 	Nor4Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor16Bit.v 
+# -- Compiling module Nor16Bit
+# 
+# Top level modules:
+# 	Nor16Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v 
+# -- Compiling module Nor32Bit
+# 
+# Top level modules:
+# 	Nor32Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_1Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_1Bit.v 
+# -- Compiling module Mux8x1_1Bit
+# 
+# Top level modules:
+# 	Mux8x1_1Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_4Bit.v 
+# -- Compiling module Mux8x1_4Bit
+# 
+# Top level modules:
+# 	Mux8x1_4Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_32Bit.v 
+# -- Compiling module Mux8x1_32Bit
+# 
+# Top level modules:
+# 	Mux8x1_32Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mux8x1_16Bit.v 
+# -- Compiling module Mux8x1_16Bit
+# 
+# Top level modules:
+# 	Mux8x1_16Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder1Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder1Bit.v 
+# -- Compiling module CarryLookaheadAdder1Bit
+# 
+# Top level modules:
+# 	CarryLookaheadAdder1Bit
+# End time: 21:51:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder4Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:23 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder4Bit.v 
+# -- Compiling module CarryLookaheadAdder4Bit
+# 
+# Top level modules:
+# 	CarryLookaheadAdder4Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder16Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder16Bit.v 
+# -- Compiling module CarryLookaheadAdder16Bit
+# 
+# Top level modules:
+# 	CarryLookaheadAdder16Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadAdder32Bit.v 
+# -- Compiling module CarryLookaheadAdder32Bit
+# 
+# Top level modules:
+# 	CarryLookaheadAdder32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v 
+# -- Compiling module CarryLookaheadLogic32Bit
+# 
+# Top level modules:
+# 	CarryLookaheadLogic32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v 
+# -- Compiling module Subtractor32Bit
+# 
+# Top level modules:
+# 	Subtractor32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/SetLessThen32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/SetLessThen32Bit.v 
+# -- Compiling module SetLessThen32Bit
+# 
+# Top level modules:
+# 	SetLessThen32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v 
+# -- Compiling module Alu32Bit
+# 
+# Top level modules:
+# 	Alu32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/ModControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/ModControlUnit.v 
+# -- Compiling module ModControlUnit
+# 
+# Top level modules:
+# 	ModControlUnit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mod32Bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Mod32Bit.v 
+# -- Compiling module Mod32Bit
+# 
+# Top level modules:
+# 	Mod32Bit
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/ModDataPathWithSUBAndSLT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/ModDataPathWithSUBAndSLT.v 
+# -- Compiling module ModDataPathWithSUBAndSLT
+# 
+# Top level modules:
+# 	ModDataPathWithSUBAndSLT
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/yusuf/Desktop/ORG\ 2.\ odev/YusufArslanProject2/Components {/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32BitTestBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:51:24 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components" /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32BitTestBench.v 
+# -- Compiling module Alu32BitTestBench
+# 
+# Top level modules:
+# 	Alu32BitTestBench
+# End time: 21:51:24 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Alu32BitTestBench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Alu32BitTestBench 
+# Start time: 21:51:24 on Dec 10,2023
+# Loading work.Alu32BitTestBench
+# Loading work.Alu32Bit
+# Loading work.And32Bit
+# Loading work.And16Bit
+# Loading work.And4Bit
+# Loading work.Or32Bit
+# Loading work.Or16Bit
+# Loading work.Or4Bit
+# Loading work.Xor32Bit
+# Loading work.Xor16Bit
+# Loading work.Xor4Bit
+# Loading work.Nor32Bit
+# Loading work.Nor16Bit
+# Loading work.Nor4Bit
+# Loading work.SetLessThen32Bit
+# Loading work.Subtractor32Bit
+# Loading work.CarryLookaheadAdder32Bit
+# Loading work.CarryLookaheadLogic32Bit
+# Loading work.CarryLookaheadAdder16Bit
+# Loading work.CarryLookaheadAdder4Bit
+# Loading work.CarryLookaheadAdder1Bit
+# Loading work.Mod32Bit
+# Loading work.ModControlUnit
+# Loading work.ModDataPathWithSUBAndSLT
+# Loading work.Mux8x1_32Bit
+# Loading work.Mux8x1_16Bit
+# Loading work.Mux8x1_4Bit
+# Loading work.Mux8x1_1Bit
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/and32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/and32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/and32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/or32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/or32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Or32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/or32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/xor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/xor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/xor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/SetLessThen32Bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Alu32Bit.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/SetLessThen32Bit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/ModDataPathWithSUBAndSLT.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Nor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/nor32Bit File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Subtractor32Bit.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/Xor32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/x1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'result'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'a'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'b'. The port definition is at: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/And32Bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Alu32BitTestBench/alu32Bit/mod32Bit/datapath/setLessThen32Bit/subtractor32Bit/carryLookaheadAdder32Bit/carryLookaheadLogic32Bit/a1 File: /home/yusuf/Desktop/ORG 2. odev/YusufArslanProject2/Components/CarryLookaheadLogic32Bit.v Line: 11
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# time: 10 AND -> 00000000101110001101001001000111 & 00001101110101011100000011100000 = 00000000100100001100000001000000
+# time: 30 OR -> 00000000101110001101001001000111 | 00001101110101011100000011100000 = 00001101111111011101001011100111
+# time: 50 XOR -> 00000000000100100111111011111000 ^ 00000000001000000101110110100010 = 00000000001100100010001101011010
+# time: 70 NOR -> ~(00000000000100100111111011111000 | 00000000001000000101110110100010) = 11111111110011011000000000000101
+# time: 90 LESS THAN ->         15 <         12 = 0
+# time: 110 LESS THAN ->         12 <         15 = 1
+# time: 130 ADD ->         15 +         12 =         27
+# time: 150 SUB ->         15 -         12 =          3
+# time: 265 MOD ->         15 mod          6 =          3
+# Break key hit
+# Simulation stop requested.
+# End time: 21:51:30 on Dec 10,2023, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 56

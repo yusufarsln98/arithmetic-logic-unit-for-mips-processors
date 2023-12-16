@@ -1,0 +1,6 @@
+
+State Machine - |Alu32Bit|Mod32Bit:mod32Bit|ModControlUnit:control|currentState
+Name currentState.START currentState.RESULT currentState.SUBTRACT 
+currentState.START 0 0 0 
+currentState.SUBTRACT 1 0 1 
+currentState.RESULT 1 1 0 
